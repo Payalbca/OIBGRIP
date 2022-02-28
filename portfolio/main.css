@@ -1,0 +1,223 @@
+body {
+  margin: 0rem;
+  background-image: url(pexels-hasan-albari-1229861.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Start of navbar */
+#nav {
+  background-color: #8860d0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 1.2rem;
+  padding-bottom: 0.5rem;
+  font-size: 22px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a:hover {
+  border-bottom: cyan 0.2rem solid;
+  color: cyan;
+}
+
+/* End of navbar */
+
+/* home page */
+#home {
+  height: 100%;
+  width: 100%;
+}
+
+#h-text {
+  position: relative;
+  top: 20rem;
+  margin-left: 14rem;
+  color: white;
+  font-size: x-large;
+  font-style: oblique;
+  animation: mytext 5s infinite;
+}
+@keyframes mytext {
+  from {
+    top: 10rem;
+  }
+
+  to {
+    top: 20rem;
+  }
+}
+#h-hello {
+  font-size: 3rem;
+}
+
+#h-name {
+  color: cyan;
+}
+
+#h-button {
+  position: relative;
+  top: 0.5rem;
+  font-size: large;
+  padding: 0.4rem;
+  background-color: #5ab9ea;
+  color: red;
+  border-radius: 2rem;
+}
+
+#h-button:hover {
+  color: cyan;
+  box-shadow: 0rem 0rem 0.3rem 0.3rem cyan;
+}
+
+/* end home page */
+
+/* Start of About Us */
+#about {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 80%;
+  background-color: #84ceeb;
+}
+
+#a-img {
+  margin: 5%;
+  margin-top: 0%;
+  position: relative;
+  top: 15%;
+  border-radius: 19rem;
+  height: 75%;
+  width: 30%;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0rem;
+  }
+
+  to {
+    left: 6.25rem;
+  }
+}
+
+#a-content {
+  float: right;
+  text-align: center;
+  margin: 5%;
+  margin-top: 0%;
+  position: relative;
+  top: 15%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  word-spacing: 0.225rem;
+  animation: mymoved 5s infinite;
+}
+@keyframes mymoved {
+  from {
+    top: 0rem;
+  }
+
+  to {
+    top: 9.375rem;
+  }
+}
+
+#a-tag {
+  color: cyan;
+}
+
+/* End of About us */
+
+/* Start of myskills */
+#myskill {
+  position: absolute;
+  top: 180%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#ms-table {
+  margin: 5%;
+  width: 90%;
+}
+
+img {
+  height: 12rem;
+  width: 12rem;
+}
+
+/* End of myskills */
+
+/* Start of Contact */
+#contact {
+  position: absolute;
+  top: 285%;
+  width: 100%;
+  background-color: #84ceeb;
+}
+
+#c-form {
+  width: 97%;
+  border: 0.25rem cyan solid;
+}
+
+legend {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 10%;
+}
+
+#c-inputs {
+  padding: 2rem;
+}
+
+#c-button {
+  background-color: black;
+  color: cyan;
+  font-size: larger;
+  border-radius: 2rem;
+}
+
+/* End of contact */
+
+/* Start of footer */
+#footer {
+  background-color: #8860d0;
+  position: absolute;
+  top: 329.5%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+  background-color: #8860d0;
+}
+
+/* End of footer */

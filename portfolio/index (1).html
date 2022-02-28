@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfilo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <!-- Start of navbar -->
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#myskill">My Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of home -->
+    <div id="home">
+
+
+        <div id="h-text"> <span id="h-hello">Hello</span>, <span id="h-name">I'm Payal Jagtap.</span><br>
+            I'm full-stack web developer.<br>
+            <button id="h-button" href="#myskill">My Skills</button>
+        </div>
+    </div>
+    <!-- End of home -->
+
+    <!-- Start of About Us -->
+    <div id="about">
+        <img id="a-img" src="WhatsApp Image 2022-02-28 at 21.03.46.jpeg">
+        <blockquote id="a-content">
+            <h3>About</h3>
+            I'm a Front-End Developer form Wave Softwares in <br> Pune, Maharashtra, India.<br>
+            I have serious passion for web design, animations and <br>creating intuitive, dynamic user experiences.<br>
+            <span id="a-tag">Let's make something special</span>
+        </blockquote>
+    </div>
+    <!-- End of About US -->
+
+    <!-- Start of my Skills -->
+    <div id="myskill">
+        <h1>My Skills</h1>
+        <table id="ms-table">
+            <tr>
+                <td><img src="HTML.png"></td>
+                <td><img src="CSS.png"></td>
+                <td><img src="Bootstrap.png"></td>
+            </tr>
+            <tr>
+                <td><img src="Javascript.png"></td>
+                <td><img src="Node.png"></td>
+                <td><img src="mongo.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="MySQL.png"></td>
+                <td><img src="C++.png"></td>
+                <td><img src="java.png"></td>
+            </tr>
+        </table>
+    </div>
+    <!-- End of my skills -->
+
+    <!-- Start of Contact -->
+    <div id="contact">
+        <fieldset id="c-form">
+            <legend>Contact</legend>
+            <form id="c-inputs">
+                <label>Name : </label> <input type="text" name="name" placeholder="Enter your name" minlength="2"
+                    maxlength="30" required>
+                <label>Email : </label> <input type="email" name="email" placeholder="xyz@gmail.com" required>
+                <label>Phone no : </label> <input type="number" name="phone no" value="phone no" minlength="6"
+                    maxlength="12" required>
+                <label>Description : </label><textarea maxlength="100"></textarea>
+                <button id="c-button">Submit</button>
+            </form>
+        </fieldset>
+    </div>
+    <!-- End of contact -->
+
+    <!-- Start of footer -->
+    <footer id="footer">
+        <p id="f-social">
+            <a href="https://github.com/Payalbca"><img class="logo" src="github-brands.svg"></a>
+            <a href="https://www.linkedin.com/in/payal-jagtap-138b14218/"><img class="logo"
+                    src="linkedin-brands.svg"></a>
+            <a href="https://gmail.com/payaljagtap50@gmail.com"><img class="logo"
+                    src="envelope-open-text-solid.svg"></a>
+            <a href="https://www.instagram.com/payaljagtap50/"><img class="logo" src="instagram-square-brands.svg"></a>
+        </p>
+        <p id="f-rights">Copyright 2022 by Payal Jagtap. All Rights Reserved.</p>
+    </footer>
+    <!-- End of footer -->
+</body>
+
+</html>
