@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d1e30;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: relative;
+    height: 180vh;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 105px;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 18px;
+    list-style: none;
+}
+
+.navbar .nav{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+.navbar .nav:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px 105px 0;
+}
+
+.text{
+    width: 55%;
+    padding-right: 155px;
+}
+
+.text p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.text p span{
+    color: yellow;
+}
+
+.text a.btn{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 13px 18px;
+    margin-top: 50px;
+}
+
+.text a.btn::before{
+    position: absolute;
+    background-color: #f02c2c;
+    border-radius: 100px;
+    content: '';
+    height: 50px;
+    width: 50px;
+    z-index: -1;    
+    top: 0;
+    left: 0;
+    transition: all ease 0.5s;
+}
+
+.text a.btn:hover::before{
+    width: 100%;
+}
+
+.img{
+    position: relative;  
+    background: radial-gradient(480px, yellow, transparent 50%);
+    margin-top: -40px;
+    height: 520px;
+    width: 520px;
+}
+
+.social_icons img{
+    position: absolute;
+}
+
+.social_icons{
+    height: 100%;
+    animation: animation 30s linear infinite;
+}
+
+.social_icons img:nth-child(1){
+    top: 0;
+    left: 45%;
+}
+.social_icons img:nth-child(2){
+    top: 28%;
+    right: 0;
+}
+.social_icons img:nth-child(3){
+    top: 73%;
+    left: 70%;
+}
+.social_icons img:nth-child(4){
+    top: 28%;
+    left: 0;
+}
+.social_icons img:nth-child(5){
+    top: 73%;
+    left: 10%;
+}
+
+.email_icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ @keyframes animation{
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+
+.logo{
+    font-weight: bold;
+    color-scheme: yellow;
+}
